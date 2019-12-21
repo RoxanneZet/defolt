@@ -1,0 +1,24 @@
+.InfoStud {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.GroupStudent {
+    margin-bottom: 30px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    background: darkgray;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+}
