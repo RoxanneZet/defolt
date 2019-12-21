@@ -6,40 +6,56 @@
     <title>Title</title>
 </head>
 <body>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
     <section>
+=======
+    <form method="get" action="/Teacher">
+>>>>>>> Stashed changes
         <label>
             Введите ФИО:
-            <input type="text" name="name" placeholder="Фамилия Имя Отчество"> </input>
+            <input type="text" id = 'name' placeholder="Фамилия Имя Отчество" required> </input>
         </label>
         <label>
             Название предмета:
-            <input type="text" name="subject" placeholder="Математика"> </input>
+            <input type="text" id = "subject" placeholder="Математика" required> </input>
         </label>
         <label>
             Название темы:
-            <input type="text" name="theme"> </input>
+            <input type="text" id = "theme" required> </input>
         </label>
         <label>
             Номер группы:
-            <input type="text" name="class number"> </input>
+            <input type="text" id = "group number"> </input>
         </label>
         <label>
-            <input type="submit" name="teachersButton" value="Создать Сессию">
+            <input type="submit" id = "teachersButton" value="Создать Сессию">
         </label>
-    </section>
+    </form>
 
-    <section>
+    <form method="get" action="/Student">
+        <label>
+            Введите ФИО:
+            <input type="text" id = 'nameOfStudent' placeholder="Фамилия Имя Отчество" required> </input>
+        </label>
+        <label>
+            Академическая группа:
+            <input type="text" id = "group" placeholder="Математика" required> </input>
+        </label>
         <label>
             Номер сессии:
-            <input type="text" name="session number"> </input>
+            <input type="text" id = "session number" required> </input>
         </label>
         <label>
-            <input type="submit" name="studentsButton" value="Зайти на сессию">
+            <input type="submit" name = "students Button" value="Зайти на сессию">
         </label>
+<<<<<<< Updated upstream
     </section>
 >>>>>>> 2ef969522203f88c9e616bcd76025700e665670f
+=======
+    </form>
+>>>>>>> Stashed changes
 </body>
 </html>
