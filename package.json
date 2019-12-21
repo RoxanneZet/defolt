@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "kill me pleace",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +18,7 @@
   "keywords": [
     "kill"
   ],
-  "author": "",
+  "author": "Me",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/XolerCartava/defolt/issues"
