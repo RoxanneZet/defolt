@@ -1,0 +1,24 @@
+{
+  "name": "webmakaka",
+  "version": "1.0.0",
+  "description": "kill me pleace",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XolerCartava/defolt.git"
+  },
+  "keywords": [
+    "kill"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XolerCartava/defolt/issues"
+  },
+  "homepage": "https://github.com/XolerCartava/defolt#readme"
+}
